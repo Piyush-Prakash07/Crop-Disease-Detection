@@ -9,3 +9,5 @@ python-multipart==0.0.9
 google-genai
 python-dotenv
 pillow
+tensorflow
+numpy
