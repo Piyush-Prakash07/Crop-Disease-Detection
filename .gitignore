@@ -1,0 +1,55 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+.Python
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/build/
+dist/
+build/
+
+# Dataset & Large Files (GitHub has 100MB file limit)
+dataset/
+*.zip
+*.tar.gz
+*.rar
+
+# Uploads & Temp Files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local SQLite / Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
